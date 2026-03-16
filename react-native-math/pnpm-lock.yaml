@@ -25,7 +25,7 @@ importers:
         version: 5.5.5(eslint-config-prettier@9.1.2(eslint@8.57.1))(eslint@8.57.1)(prettier@3.8.1)
       nitrogen:
         specifier: '*'
-        version: 0.35.1(react-native@0.83.0(@babel/core@7.29.0)(@types/react@19.2.14)(react@19.2.0))(react@19.2.0)
+        version: 0.35.2(react-native@0.83.0(@babel/core@7.29.0)(@types/react@19.2.14)(react@19.2.0))(react@19.2.0)
       prettier:
         specifier: ^3.3.3
         version: 3.8.1
@@ -36,8 +36,8 @@ importers:
         specifier: 0.83.0
         version: 0.83.0(@babel/core@7.29.0)(@types/react@19.2.14)(react@19.2.0)
       react-native-nitro-modules:
-        specifier: '*'
-        version: 0.35.1(react-native@0.83.0(@babel/core@7.29.0)(@types/react@19.2.14)(react@19.2.0))(react@19.2.0)
+        specifier: ^0.35.2
+        version: 0.35.2(react-native@0.83.0(@babel/core@7.29.0)(@types/react@19.2.14)(react@19.2.0))(react@19.2.0)
       typescript:
         specifier: ^5.8.3
         version: 5.9.3
@@ -1618,8 +1618,8 @@ packages:
     resolution: {integrity: sha512-8Ofs/AUQh8MaEcrlq5xOX0CQ9ypTF5dl78mjlMNfOK08fzpgTHQRQPBxcPlEtIw0yRpws+Zo/3r+5WRby7u3Gg==}
     engines: {node: '>= 0.6'}
 
-  nitrogen@0.35.1:
-    resolution: {integrity: sha512-QBug3zkQbxTk5kqb3PC4BsUozOtAE4ah6/xKq6vk3SPqZ8T4nKciIHU+VDhCS+2uYvqt06C2Vpd+UArEfNIwaw==}
+  nitrogen@0.35.2:
+    resolution: {integrity: sha512-oSlD1uoJPhTr4Zlf3IkX68zXBmpfuOzeds4LJBK7P7WUd1zE4fqAtYCHPeoKw2qLUByGV1FJTrr7Ye84dP/ujQ==}
     hasBin: true
 
   node-exports-info@1.6.0:
@@ -1805,8 +1805,8 @@ packages:
   react-is@18.3.1:
     resolution: {integrity: sha512-/LLMVyas0ljjAtoYiPqYiL8VWXzUUdThrmU5+n20DZv+a+ClRoevUzw5JxU+Ieh5/c87ytoTBV9G1FiKfNJdmg==}
 
-  react-native-nitro-modules@0.35.1:
-    resolution: {integrity: sha512-XIPN8+1kPCaLEQuzPCgFQwy96B97u66SHQ0hA1xWWSHUQ+GXxM4fAysqgTHvW4SU25IRZqzhaSmGsoZlNDSmRA==}
+  react-native-nitro-modules@0.35.2:
+    resolution: {integrity: sha512-97cZcCh3ZAuWAfutel2Q3qLfc45XXh7F9Ei5tEjahP0kV3q8hQelwLIulKXmjN+f0JI5Zf/wCsfwwdVWYU2tKA==}
     peerDependencies:
       react: '*'
       react-native: '*'
@@ -4235,10 +4235,10 @@ snapshots:
 
   negotiator@1.0.0: {}
 
-  nitrogen@0.35.1(react-native@0.83.0(@babel/core@7.29.0)(@types/react@19.2.14)(react@19.2.0))(react@19.2.0):
+  nitrogen@0.35.2(react-native@0.83.0(@babel/core@7.29.0)(@types/react@19.2.14)(react@19.2.0))(react@19.2.0):
     dependencies:
       chalk: 5.6.2
-      react-native-nitro-modules: 0.35.1(react-native@0.83.0(@babel/core@7.29.0)(@types/react@19.2.14)(react@19.2.0))(react@19.2.0)
+      react-native-nitro-modules: 0.35.2(react-native@0.83.0(@babel/core@7.29.0)(@types/react@19.2.14)(react@19.2.0))(react@19.2.0)
       ts-morph: 27.0.2
       yargs: 18.0.0
       zod: 4.3.6
@@ -4423,7 +4423,7 @@ snapshots:
 
   react-is@18.3.1: {}
 
-  react-native-nitro-modules@0.35.1(react-native@0.83.0(@babel/core@7.29.0)(@types/react@19.2.14)(react@19.2.0))(react@19.2.0):
+  react-native-nitro-modules@0.35.2(react-native@0.83.0(@babel/core@7.29.0)(@types/react@19.2.14)(react@19.2.0))(react@19.2.0):
     dependencies:
       react: 19.2.0
       react-native: 0.83.0(@babel/core@7.29.0)(@types/react@19.2.14)(react@19.2.0)

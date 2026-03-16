@@ -12,5 +12,15 @@ import NitroModules
 public final class NitroMathAutolinking {
   public typealias bridge = margelo.nitro.math.bridge.swift
 
+  public static func createMath() -> bridge.std__shared_ptr_HybridMathSpec_ {
+    let hybridObject = HybridMath()
+    return { () -> bridge.std__shared_ptr_HybridMathSpec_ in
+      let __cxxWrapped = hybridObject.getCxxWrapper()
+      return __cxxWrapped.getCxxPart()
+    }()
+  }
   
+  public static func isMathRecyclable() -> Bool {
+    return HybridMath.self is any RecyclableView.Type
+  }
 }

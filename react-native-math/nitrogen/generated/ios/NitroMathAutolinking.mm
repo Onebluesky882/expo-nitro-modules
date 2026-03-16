@@ -7,10 +7,10 @@
 
 #import <Foundation/Foundation.h>
 #import <NitroModules/HybridObjectRegistry.hpp>
-
+#import "NitroMath-Swift-Cxx-Umbrella.hpp"
 #import <type_traits>
 
-#include "HybridMath.hpp"
+#include "HybridMathSpecSwift.hpp"
 
 @interface NitroMathAutolinking : NSObject
 @end
@@ -24,10 +24,8 @@
   HybridObjectRegistry::registerHybridObjectConstructor(
     "Math",
     []() -> std::shared_ptr<HybridObject> {
-      static_assert(std::is_default_constructible_v<HybridMath>,
-                    "The HybridObject \"HybridMath\" is not default-constructible! "
-                    "Create a public constructor that takes zero arguments to be able to autolink this HybridObject.");
-      return std::make_shared<HybridMath>();
+      std::shared_ptr<HybridMathSpec> hybridObject = NitroMath::NitroMathAutolinking::createMath();
+      return hybridObject;
     }
   );
 }
