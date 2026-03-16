@@ -37,13 +37,13 @@ NitroModules.createHybridObject<Math>('Math')
 
 ## 5.Install Library in App
 
-pnpm add react-native-nitro-modules
 pnpm create expo-app my-app
-install
+
+pnpm add react-native-nitro-modules
+
 pnpm add ../react-native-math --save
 
-checking
-pnpm list react-native-math
+checking : pnpm list react-native-math
 
 ✅ react-native-math link:../react-native-math
 
@@ -158,6 +158,5 @@ Checklist (Important)
 ก่อน build ต้องเช็ค
 • react-native-nitro-modules version ตรงกัน
 
-```
-
-```
+main doc : ['https://nitro.margelo.com/docs/getting-started/how-to-build-a-nitro-module']
+credit : ['https://www.youtube.com/watch?v=528SxTGnIlc&t=730s']
