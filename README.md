@@ -36,6 +36,7 @@ pnpm dlx nitrogen
 src/index.ts
 
 import type { Math } from './specs/Math.nitro'
+
 import { NitroModules } from 'react-native-nitro-modules'
 
 export const HybridMath =
