@@ -8,7 +8,8 @@ Guide สำหรับสร้าง React Native Nitro Module โดยใ�
 ## 1. Create Spec (Type Definition)
 
 pnpm add react-native-nitro-modules
-src/specs/Math.nitro.ts
+
+create new file path:src/specs/Math.nitro.ts
 
 ```ts
 import type { HybridObject } from "react-native-nitro-modules";
@@ -21,7 +22,9 @@ export interface Math extends HybridObject<{ ios: "swift" }> {
 ## 2. Create Native Implementation Files
 
 สร้างไฟล์ implementation เปล่า
+
 ios/HybridMath.swift
+
 android/src/main/java/.../HybridMath.kt
 
 ## 3. Generate Native Code
