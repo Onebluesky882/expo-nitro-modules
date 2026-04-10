@@ -1,5 +1,8 @@
 # Build a Nitro Native Module
 
+create project : 
+npx nitrogen@latest init react-native-math
+
 Guide สำหรับสร้าง React Native Nitro Module โดยใช้ nitrogen codegen
 
 ## 1. Create Spec (Type Definition)
