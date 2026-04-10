@@ -1,5 +1,7 @@
 # Build a Nitro Native Module
 
+## nitro modules
+
 create project : 
 npx nitrogen@latest init react-native-math
 
@@ -53,8 +55,11 @@ pnpm add react-native-nitro-modules
 pnpm add ../react-native-math --save
 
 checking : pnpm list react-native-math
-
+if got : dependencies:
+react-native-math link:../react-native-math
 ✅ react-native-math link:../react-native-math
+
+## app
 
 ## 6. Prepare iOS Native Build
 
