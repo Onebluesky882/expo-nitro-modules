@@ -65,7 +65,7 @@ react-native-math link:../react-native-math
 
 ขั้นตอนการสร้าง method native (Swift) สำหรับ Nitro Module ใน Xcode จากโปรเจกต์ Expo Dev Client ที่อยู่ใน
 
-หลังจาก install : react-native-math
+หลังจาก install : my-app
 npx expo run:ios
 cd ios
 pod install
