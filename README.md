@@ -35,12 +35,14 @@ pnpm dlx nitrogen
 
 src/index.ts
 
+```ts
 import type { Math } from './specs/Math.nitro'
 
 import { NitroModules } from 'react-native-nitro-modules'
 
 export const HybridMath =
 NitroModules.createHybridObject<Math>('Math')
+```
 
 ## 5.Install Library in App
 
